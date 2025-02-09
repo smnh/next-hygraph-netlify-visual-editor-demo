@@ -5,7 +5,7 @@ import classNames from 'classnames';
 import type { GetStaticProps, InferGetStaticPropsType } from 'next';
 import Image from '@/components/Image';
 import { Layout } from '@/components/Layout';
-import { getPostPages, getSiteConfig, PostPage } from '@/utils/hygraph-client';
+import { getPostPages, getSiteConfig } from '@/utils/hygraph-client';
 
 export const getStaticProps = (async (context) => {
     const siteConfig = await getSiteConfig();

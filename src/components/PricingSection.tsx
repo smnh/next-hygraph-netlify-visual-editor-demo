@@ -57,7 +57,7 @@ export function PricingSection(props: PricingSectionProps) {
                                 <ul role="list" data-sb-field-path=".planFeatures" className="mb-8 space-y-4 text-left">
                                     {plan.planFeatures?.map((planFeature, index) => {
                                         const parts = planFeature.split('**');
-                                        let result: (string | JSX.Element)[] = [];
+                                        const result: (string | JSX.Element)[] = [];
                                         for (let i = 0; i < parts.length; i++) {
                                             if (i % 2 === 1 && i < parts[i].length - 1) {
                                                 result.push(
