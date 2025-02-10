@@ -23,7 +23,9 @@ This is a Netlify Visual Editor starter project based on Next.js, Flowbite, and 
    5. `HYGRAPH_MANAGEMENT_API`: Hygraph management API endpoint URL.
    6. `HYGRAPH_MANAGEMENT_TOKEN`: Hygraph management token.
 
-4. [Clone the Netlify Visual Editor Demo](https://app.hygraph.com/clone/44fc203882f6401cb21af769923a5123?name=Netlify%20Visual%20Editor%20Demo) project in Hygraph.
+4. Clone the Netlify Visual Editor Template project in Hygraph.
+
+   <a href="https://app.hygraph.com/clone/44fc203882f6401cb21af769923a5123?name=Netlify%20Visual%20Editor%20Demo"><img src="https://hygraph.com/button" alt="Clone project"/></a>
 
    <p align="center"><img width="830" src="docs/clone-project.png"></p>
 
@@ -35,11 +37,11 @@ This is a Netlify Visual Editor starter project based on Next.js, Flowbite, and 
 
    <p align="center"><img width="830" src="docs/endpoints.png"></p>
 
-7. Navigate to "**Content API**" section and add "**Read**" permission for all models, all stages and all locales.
+7. Navigate to "**Content API**" section and validate that you have "**Read**" permission for all models, all stages and all locales. The clone process should have created this permission for you.
 
    <p align="center"><img width="830" src="docs/content-api.png"></p>
 
-8. Navigate to “Permanent Auth Tokens” section and create a new token. Copy the token value and set it to the `HYGRAPH_MANAGEMENT_TOKEN` variable in your `.env` file.
+8. Navigate to “Permanent Auth Tokens” section and create a new token if the clone process didn't already create the "Netlify Visual Editor Token" for you. Copy the token value and set it to the `HYGRAPH_MANAGEMENT_TOKEN` variable in your `.env` file.
 
    <p align="center"><img width="830" src="docs/permanent-auth-token.png"></p>
 

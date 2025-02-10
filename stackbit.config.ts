@@ -6,8 +6,9 @@ export default defineStackbitConfig({
     stackbitVersion: '~0.6.0',
     ssgName: 'nextjs',
     nodeVersion: '20',
-    useESM: true,
 
+    // This is important for HygraphContentSource as it has ESM only dependencies (graphql-request)
+    useESM: true,
     contentSources: [
         new HygraphContentSource({
             projectId: process.env.HYGRAPH_PROJECT_ID!,
@@ -19,6 +20,7 @@ export default defineStackbitConfig({
         })
     ],
 
+    // This marks the LandingPage and PostPage models as "page" models in the Visual-Editor
     modelExtensions: [
         {
             name: 'LandingPage',
@@ -30,6 +32,8 @@ export default defineStackbitConfig({
         }
     ],
 
+    // The sitemap maps between "page" documents and their url paths allowing easy
+    // navigation between site pages in the Visual-Editor.
     sitemap: ({ documents }) => {
         return documents.reduce(
             (sitemap: SiteMapEntry[], document): SiteMapEntry[] => {
@@ -48,6 +52,8 @@ export default defineStackbitConfig({
                 });
                 return sitemap;
             },
+            // The /blog page is a list of post pages, it doesn't have a
+            // respective entry in Hygraph, so we add it manually.
             [
                 {
                     urlPath: '/blog',
