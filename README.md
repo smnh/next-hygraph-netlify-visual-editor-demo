@@ -27,23 +27,23 @@ This is a Netlify Visual Editor starter project based on Next.js, Flowbite, and 
 
    <a href="https://app.hygraph.com/clone/44fc203882f6401cb21af769923a5123?name=Netlify%20Visual%20Editor%20Demo"><img src="https://hygraph.com/button" alt="Clone project"/></a>
 
-   <p align="center"><img width="830" src="docs/clone-project.png"></p>
+   <p><img width="800" src="docs/clone-project.png"></p>
 
 5. Navigate to the main project settings page, copy the project **Id** and the **Region** values and set them to the `HYGRAPH_PROJECT_ID` and the `HYGRAPH_REGION` variables respectively in your `.env` file.
 
-   <p align="center"><img width="830" src="docs/project-settings.png"></p>
+   <p><img width="800" src="docs/project-settings.png"></p>
 
 6. Navigate to the "**Endpoints**" section in the project settings, copy the "**High Performance Content API**" and the "**Management API**" values and set them to the `HYGRAPH_ENDPOINT` and the `HYGRAPH_MANAGEMENT_API` variables respectively in your `.env` file.
 
-   <p align="center"><img width="830" src="docs/endpoints.png"></p>
+   <p><img width="800" src="docs/endpoints.png"></p>
 
 7. Navigate to "**Content API**" section and validate that you have "**Read**" permission for all models, all stages and all locales. The clone process should have created this permission for you.
 
-   <p align="center"><img width="830" src="docs/content-api.png"></p>
+   <p><img width="800" src="docs/content-api.png"></p>
 
 8. Navigate to “Permanent Auth Tokens” section and create a new token if the clone process didn't already create the "Netlify Visual Editor Token" for you. Copy the token value and set it to the `HYGRAPH_MANAGEMENT_TOKEN` variable in your `.env` file.
 
-   <p align="center"><img width="830" src="docs/permanent-auth-token.png"></p>
+   <p><img width="800" src="docs/permanent-auth-token.png"></p>
 
 9. The token should have the following configuration:
 
@@ -51,7 +51,7 @@ This is a Netlify Visual Editor starter project based on Next.js, Flowbite, and 
      - Default stage for content delivery: **Draft**
      - Content permissions enabled for all models, all stages and all locales
      
-     <p align="center"><img width="830" src="docs/pat-content-permissions.png"></p>
+     <p><img width="830" src="docs/pat-content-permissions.png"></p>
 
    - Management API - The management API should include 21 permissions:
    
@@ -78,19 +78,19 @@ This is a Netlify Visual Editor starter project based on Next.js, Flowbite, and 
      21. Can read content permissions
      22. (Optional for debugging) Can use the playground
 
-     <p align="center"><img width="830" src="docs/pat-management-permissions.png"></p>
+     <p><img width="800" src="docs/pat-management-permissions.png"></p>
 
 10. Run `npm run dev` to start the Next.js development server. This will start a local dev server on http://localhost:3000. Open it in your browser and validate that the site is working properly and renders the content from Hygraph. Try updating some content in Hygraph, then reload the page to see the changes. Keep this terminal window opened and the dev server running.
 
 11. To enable automatic content updates in the Visual Editor when working locally, you can use webhooks and tunnel them to your local machine using a tool like [ngrok](https://ngrok.com/). To do so, open a second terminal and run `ngrok http 8090`. If you don’t have ngrok, please follow ngrok’s [quick start guide](https://ngrok.com/docs/getting-started/) to install it. Once ngrok has started it will print a public URL in the form of [https://xyz.ngrok.app](https://xyz.ngrok.app/) or [https://xyz.ngrok.io](https://xyz.ngrok.io/). Keep this terminal window opened and the ngrok running.
 
-   <p align="center"><img width="830" src="docs/ngrok-example.png"></p>
+    <p><img width="800" src="docs/ngrok-example.png"></p>
 
 12. Open a third terminal window and install Visual Editor CLI:
 
-   ```bash
-   npm i -g @stackbit/cli
-   ```
+    ```bash
+    npm i -g @stackbit/cli
+    ```
 
 13. Run `stackbit dev` with `--csi-webhook-url` argument set to your ngrok's public URL address ending with the `/_stackbit/onWebhook` path:
 
