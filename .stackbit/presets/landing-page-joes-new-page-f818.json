@@ -1,0 +1,162 @@
+{
+    "model": "LandingPage",
+    "srcType": "hygraph",
+    "srcProjectId": "9534f73a5ba245e7881fc9199a171b3d",
+    "presets": [
+        {
+            "label": "Joes New Page",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Joes Pages"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": "Homepage",
+                "slug": "/",
+                "sections": [
+                    {
+                        "$$type": "HeroSection",
+                        "title": "Connect everything. Build anything",
+                        "subtitle": "Netlify is the essential platform for the delivery of exceptional and dynamic web experiences, without limitations.",
+                        "image": {
+                            "$$ref": "cm6xt3df311w206n2iuacsrho",
+                            "$$type": "__asset_model"
+                        },
+                        "actions": [
+                            {
+                                "$$type": "Action",
+                                "label": "Get started",
+                                "url": "#",
+                                "primary": true,
+                                "icon": "fi-br-arrow-small-right",
+                                "iconPosition": "left"
+                            },
+                            {
+                                "$$type": "Action",
+                                "label": "Speak to Sales",
+                                "url": "#",
+                                "primary": null,
+                                "icon": null,
+                                "iconPosition": null
+                            }
+                        ]
+                    },
+                    {
+                        "$$type": "HeroSection",
+                        "title": "Connect everything. Build anything!!!",
+                        "subtitle": "Netlify is the essential platform for the delivery of exceptional and dynamic web experiences, without limitations.",
+                        "image": {
+                            "$$ref": "cm6xt3df311w206n2iuacsrho",
+                            "$$type": "__asset_model"
+                        },
+                        "actions": [
+                            {
+                                "$$type": "Action",
+                                "label": "Get started",
+                                "url": "#",
+                                "primary": true,
+                                "icon": "fi-br-arrow-small-right",
+                                "iconPosition": "left"
+                            },
+                            {
+                                "$$type": "Action",
+                                "label": "Speak to Sales",
+                                "url": "#",
+                                "primary": null,
+                                "icon": null,
+                                "iconPosition": null
+                            }
+                        ]
+                    },
+                    {
+                        "$$type": "LogosSection",
+                        "title": "You’ll be in good company",
+                        "subtitle": null,
+                        "logos": [
+                            {
+                                "$$type": "LogoItem",
+                                "title": "Twilio",
+                                "url": null,
+                                "image": {
+                                    "$$ref": "cm6y17qtq4nun07mwzbyimrkj",
+                                    "$$type": "__asset_model"
+                                }
+                            },
+                            {
+                                "$$type": "LogoItem",
+                                "title": "Mattel",
+                                "url": null,
+                                "image": {
+                                    "$$ref": "cm6y17qvw7v4906n2pwz9zz27",
+                                    "$$type": "__asset_model"
+                                }
+                            },
+                            {
+                                "$$type": "LogoItem",
+                                "title": "Google",
+                                "url": null,
+                                "image": {
+                                    "$$ref": "cm6y17qu54nuu07mwuzizd6q8",
+                                    "$$type": "__asset_model"
+                                }
+                            },
+                            {
+                                "$$type": "LogoItem",
+                                "title": "Riot Games",
+                                "url": null,
+                                "image": {
+                                    "$$ref": "cm6y17qub4nux07mwcyjhy7o1",
+                                    "$$type": "__asset_model"
+                                }
+                            },
+                            {
+                                "$$type": "LogoItem",
+                                "title": "Unilever",
+                                "url": null,
+                                "image": {
+                                    "$$ref": "cm6y17qw87v4e06n2je2rr5ay",
+                                    "$$type": "__asset_model"
+                                }
+                            },
+                            {
+                                "$$type": "LogoItem",
+                                "title": "Peloton",
+                                "url": null,
+                                "image": {
+                                    "$$ref": "cm6y17qvc7v3z06n2lk4b34bn",
+                                    "$$type": "__asset_model"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$$type": "CtaSection",
+                        "title": "Netlify Composable Web Platform",
+                        "subtitle": "Streamlined orchestration, simplified and unified workflows, and real-time updates across infrastructure, workflows, websites and teams — all supported by Enterprise-grade security, services, and a world-class partner ecosystem.",
+                        "actions": [
+                            {
+                                "$$type": "Action",
+                                "label": "Explore the Platform",
+                                "url": "#",
+                                "primary": true,
+                                "icon": null,
+                                "iconPosition": null
+                            },
+                            {
+                                "$$type": "Action",
+                                "label": "Request demo",
+                                "url": "#",
+                                "primary": null,
+                                "icon": "fi-br-video-camera-alt",
+                                "iconPosition": "left"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "thumbnail": "images/landing-page-joes-new-page-f818.png"
+        }
+    ]
+}
