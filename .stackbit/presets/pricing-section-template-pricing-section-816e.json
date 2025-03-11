@@ -1,0 +1,48 @@
+{
+    "model": "PricingSection",
+    "srcType": "hygraph",
+    "srcProjectId": "2c7ace01266d4866ac3305fecedd254d",
+    "presets": [
+        {
+            "label": "Template Pricing Section",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Simon Sections"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": "Pricing",
+                "subtitle": null,
+                "pricingPlans": [
+                    {
+                        "$$type": "PricingPlan",
+                        "title": "Pro",
+                        "subtitle": null,
+                        "price": "100",
+                        "planFeatures": [],
+                        "action": null
+                    },
+                    {
+                        "$$type": "PricingPlan",
+                        "title": "Free",
+                        "subtitle": "For hobbyst",
+                        "price": "0",
+                        "planFeatures": [],
+                        "action": null
+                    },
+                    {
+                        "$$type": "PricingPlan",
+                        "title": "Hobby",
+                        "subtitle": null,
+                        "price": "50",
+                        "planFeatures": [],
+                        "action": null
+                    }
+                ]
+            },
+            "thumbnail": "images/pricing-section-template-pricing-section-816e.png"
+        }
+    ]
+}
