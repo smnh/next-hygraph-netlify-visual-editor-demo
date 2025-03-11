@@ -1,0 +1,178 @@
+{
+    "model": "LandingPage",
+    "srcType": "hygraph",
+    "srcProjectId": "2c7ace01266d4866ac3305fecedd254d",
+    "presets": [
+        {
+            "label": "Page template",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Simon Pages"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": "Homepage",
+                "slug": "/",
+                "sections": [
+                    {
+                        "$$type": "HeroSection",
+                        "title": "Connect everything! Build anything!",
+                        "subtitle": "Hello world! \nNetlify is the essential platform for the delivery of exceptional and dynamic web experiences, without limitations. Beautiful!",
+                        "image": {
+                            "$$ref": "cm6y7eemkcmqr06n2tndzmzpm",
+                            "$$type": "__asset_model"
+                        },
+                        "actions": [
+                            {
+                                "$$type": "Action",
+                                "label": "Get started",
+                                "url": "#",
+                                "primary": true,
+                                "icon": "fi-br-arrow-small-right",
+                                "iconPosition": "left"
+                            },
+                            {
+                                "$$type": "Action",
+                                "label": "Speak to Sales",
+                                "url": "#",
+                                "primary": false,
+                                "icon": null,
+                                "iconPosition": null
+                            }
+                        ]
+                    },
+                    {
+                        "$$type": "FeaturesSection",
+                        "title": "Click, edit, publish",
+                        "subtitle": "Netlify Create gives digital teams the freedom to autonomously perform content and website updates faster than ever before with an intuitive visual editor.",
+                        "features": [
+                            {
+                                "$$type": "FeatureItem",
+                                "title": "Marketing",
+                                "content": "Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.",
+                                "icon": "fi-sr-chat-arrow-grow"
+                            },
+                            {
+                                "$$type": "FeatureItem",
+                                "title": "Legal",
+                                "content": "Protect your organization, devices and stay compliant with our structured workflows and custom permissions made for you.",
+                                "icon": "fi-sr-gavel"
+                            },
+                            {
+                                "$$type": "FeatureItem",
+                                "title": "Business Automation",
+                                "content": "Auto-assign tasks, send Slack messages, and much more. Now power up with hundreds of new templates to help you get started.",
+                                "icon": "fi-sr-briefcase"
+                            },
+                            {
+                                "$$type": "FeatureItem",
+                                "title": "Finance",
+                                "content": "Audit-proof software built for critical financial operations like month-end close and quarterly budgeting",
+                                "icon": "fi-sr-usd-circle"
+                            },
+                            {
+                                "$$type": "FeatureItem",
+                                "title": "Enterprise Design",
+                                "content": "Craft beautiful, delightful experiences for both marketing and product with real cross-company collaboration.",
+                                "icon": "fi-ss-layout-fluid"
+                            },
+                            {
+                                "$$type": "FeatureItem",
+                                "title": "Operations",
+                                "content": "Keep your company’s lights on with customizable, iterative, and structured workflows built for all efficient teams and individual.",
+                                "icon": "fi-sr-settings"
+                            }
+                        ]
+                    },
+                    {
+                        "$$type": "CtaSection",
+                        "title": "Netlify Composable Web Platform",
+                        "subtitle": "Streamlined orchestration, simplified and unified workflows, and real-time updates across infrastructure, workflows, websites and teams — all supported by Enterprise-grade security, services, and a world-class partner ecosystem.",
+                        "actions": [
+                            {
+                                "$$type": "Action",
+                                "label": "Explore the Platform",
+                                "url": "#",
+                                "primary": true,
+                                "icon": null,
+                                "iconPosition": null
+                            },
+                            {
+                                "$$type": "Action",
+                                "label": "Request demo",
+                                "url": "#",
+                                "primary": null,
+                                "icon": "fi-br-video-camera-alt",
+                                "iconPosition": "left"
+                            }
+                        ]
+                    },
+                    {
+                        "$$type": "LogosSection",
+                        "title": "You’ll be in good company",
+                        "subtitle": null,
+                        "logos": [
+                            {
+                                "$$type": "LogoItem",
+                                "title": "Twilio",
+                                "url": null,
+                                "image": {
+                                    "$$ref": "cm6y17qtq4nun07mwzbyimrkj",
+                                    "$$type": "__asset_model"
+                                }
+                            },
+                            {
+                                "$$type": "LogoItem",
+                                "title": "Mattel",
+                                "url": null,
+                                "image": {
+                                    "$$ref": "cm6y17qvw7v4906n2pwz9zz27",
+                                    "$$type": "__asset_model"
+                                }
+                            },
+                            {
+                                "$$type": "LogoItem",
+                                "title": "Google",
+                                "url": null,
+                                "image": {
+                                    "$$ref": "cm6y17qu54nuu07mwuzizd6q8",
+                                    "$$type": "__asset_model"
+                                }
+                            },
+                            {
+                                "$$type": "LogoItem",
+                                "title": "Riot Games",
+                                "url": null,
+                                "image": {
+                                    "$$ref": "cm6y17qub4nux07mwcyjhy7o1",
+                                    "$$type": "__asset_model"
+                                }
+                            },
+                            {
+                                "$$type": "LogoItem",
+                                "title": "Unilever",
+                                "url": null,
+                                "image": {
+                                    "$$ref": "cm6y17qw87v4e06n2je2rr5ay",
+                                    "$$type": "__asset_model"
+                                }
+                            },
+                            {
+                                "$$type": "LogoItem",
+                                "title": "Peloton",
+                                "url": null,
+                                "image": {
+                                    "$$ref": "cm6y17qvc7v3z06n2lk4b34bn",
+                                    "$$type": "__asset_model"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "thumbnail": "images/landing-page-page-template-84b5.png"
+        }
+    ]
+}
